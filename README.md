@@ -30,10 +30,10 @@ visit our sponsors:
 
 ```
 .
-├── /build/                     # The folder for compiled output
-├── /docs/                      # Documentation files for the project
-├── /node_modules/              # 3rd-party libraries and utilities
-├── /src/                       # The source code of the application
+├── /build/                     # アウトプットディレクトリ
+├── /docs/                      # ドキュメント
+├── /node_modules/              # サードパーティNodeモジュール
+├── /src/                       # ソースディレクトリ
 │   ├── /actions/               # Action creators that allow to trigger a dispatch to stores
 │   ├── /components/            # React components
 │   ├── /constants/             # Constants (action types etc.)
@@ -59,8 +59,8 @@ visit our sponsors:
 │   ├── /runServer.js           # Launches (or restarts) Node.js server
 │   ├── /start.js               # Launches the development web server with "live reload"
 │   └── /webpack.config.js      # Configurations for client-side and server-side bundles
-│── package.json                # The list of 3rd party libraries and utilities
-└── preprocessor.js             # ES6 transpiler settings for Jest
+│── package.json                # Nodeモジュールの管理用ファイル
+└── preprocessor.js             # Jest用ES6トランスパイラES6(Jestはテストフレームワーク．トランスパイラはES5用コードにコンパイルする)
 ```
 
 ### Related Projects
